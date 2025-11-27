@@ -14,7 +14,7 @@ Instead of reading documentation, players *live* the workflow:
 *   **Rebasing** involves physically rearranging timeline blocks.
 *   **Cherry-picking** is a teleportation mechanic.
 
-This project was built to bridge the gap between "Learning Git" and "Having Fun," winning the **GitKon 2025 Game Jam**.
+This project was built to bridge the gap between "Learning Git" and "Having Fun, under the **GitKon 2025 Game Jam**.
 
 ---
 
