@@ -154,8 +154,10 @@ npm run dev
 
 Whether you are a junior dev struggling with `rebase` or a senior dev who just wants to see a voxel Kraken spin, there is something here for you.
 
+
 <div align="center">
-**Built with 💜 by _SEJAL_KAMBLE_  for GitKon 2025 Game Jam**
+  
+**Built with 💜 by _SEJAL_KAMBLE_   for GitKon 2025 Game Jam**
 </div>
 
 
