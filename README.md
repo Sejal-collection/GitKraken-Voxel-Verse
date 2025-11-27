@@ -1,20 +1,58 @@
-# 🐙 GitKraken: Voxel Verse
 
-> **A 3D Gamified Git Experience built for GitKon 2025.**  
-> Master version control mechanics in a visually stunning voxel world.
+<div align="center">
 
-![Game Banner](https://i.imgur.com/your-banner-image-placeholder.png) *Replace with a screenshot of your Intro Screen*
+# 🐙 GITKRAKEN: VOXEL VERSE
 
-## 🎮 Introduction
+**THE FIRST 3D GAMIFIED GIT EXPERIENCE**
 
-**GitKraken: Voxel Verse** transforms abstract Git concepts into tangible, 3D puzzles. Players control **Keif the Kraken** in a voxel-based repository, solving challenges that require real Git commands to progress.
+[![GitKon 2025](https://img.shields.io/badge/🏆_Entry-GitKon_2025-00D664?style=for-the-badge&logo=gitkraken&logoColor=white)](https://gitkraken.com)
+[![Tech Stack](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Engine](https://img.shields.io/badge/Engine-Pure_CSS_3D-FF5733?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](./LICENSE)
 
-Instead of reading documentation, players *live* the workflow:
-*   **Merge Conflicts** become boss battles.
-*   **Rebasing** involves physically rearranging timeline blocks.
-*   **Cherry-picking** is a teleportation mechanic.
+<br />
 
-This project was built to bridge the gap between "Learning Git" and "Having Fun, under the **GitKon 2025 Game Jam**.
+```text
+█▀▀ █ ▀▀█▀▀ █ █ █▀▀█ █▀▀█ █ █ █▀▀ █▀▀▄
+█ ▀ █   █   █▀▄ █▄▄▀ █▄▄█ █▀▄ █▀▀ █  █
+▀▀▀ ▀   ▀   ▀ ▀ ▀ ▀▀ ▀  ▀ ▀ ▀ ▀▀▀ ▀  ▀
+
+      V  O  X  E  L     V  E  R  S  E
+```
+
+<br />
+</div>
+
+> **"Imagine if Minecraft and GitKraken had a baby, and it taught you how to code."**  
+> **A 3D Gamified Git Experience built for GitKon 2025 Game Jam.**
+> Master version control mechanics in a visually stunning, synthwave-infused voxel world.
+
+
+
+![Game Banner](Images/intro-screen.png) 
+
+## 🚀 Why Play Voxel Verse?
+
+Git can be abstract, intimidating, and text-heavy. **Voxel Verse** changes the paradigm by turning the command line into a playground.
+
+*   **Turn Confusion into Clarity:** "Rebasing" isn't just a command anymore—it's a tactile puzzle where you physically rearrange timeline blocks.
+*   **See Your Impact:** Watch the **Real-time Holo-Graph** draw complex commit histories dynamically as you play.
+*   **Audio-Reactive World:** Immerse yourself in a generative **Synthwave Soundtrack** that evolves as you solve puzzles.
+*   **Zero-Setup Learning:** No terminal installation required. Just load the page and start committing.
+
+Whether you're a student trying to understand `merge conflicts` or a senior dev looking for a chill lo-fi coding vibe, this game puts you in the flow state.
+
+---
+
+## 🎮 Game Overview
+
+**GitKraken: Voxel Verse** puts you in control of **Keif the Kraken**, a digital avatar traversing the corrupted sectors of a code repository.
+
+Instead of reading documentation, you *live* the workflow:
+*   ⚔️ **Merge Conflicts** are physical barriers that must be dismantled.
+*   ⏳ **Time Travel** is achieved by `checking out` previous commits.
+*   🍒 **Teleportation** allows you to `cherry-pick` resources across dimensions.
+*   🌌 **History Rewriting** lets you physically `swap` blocks to clean up a messy rebase.
 
 ---
 
@@ -78,30 +116,21 @@ The timeline is physically scattered. Commits are floating in the wrong position
 
 ---
 
-## 💻 Installation & Setup
+## 💻 Installation
 
-This is a standard React + Vite application.
+Want to hack on the Voxel Verse?
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/voxel-verse.git
-    cd voxel-verse
-    ```
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/voxel-verse.git
 
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
+# 2. Install dependencies
+npm install
 
-3.  **Run the development server:**
-    ```bash
-    npm run dev
-    ```
+# 3. Enter the Verse
+npm run dev
+```
 
-4.  **Build for production:**
-    ```bash
-    npm run build
-    ```
 
 ---
 
@@ -109,12 +138,12 @@ This is a standard React + Vite application.
 
 | **The Intro** | **The Game World** |
 |:---:|:---:|
-| ![Intro](https://via.placeholder.com/400x200?text=Intro+Screen) | ![Gameplay](https://via.placeholder.com/400x200?text=Voxel+Gameplay) |
+| ![Intro](Images/intro-screen.png) | ![Gameplay](Images/gameplay-level-1.png) |
 | *Cinematic 3D CSS Title* | *Isometric Voxel Engine* |
 
 | **Mission Select** | **Knowledge Base** |
 |:---:|:---:|
-| ![Map](images\Screenshot 2025-11-27 203003.png) | ![Docs](https://via.placeholder.com/400x200?text=Knowledge+Base) |
+| ![Map](Images/mission-select.png) | ![Docs](Images/knowledge-base.png) |
 | *Cosmic Navigation* | *Interactive Documentation* |
 
 ---
@@ -125,4 +154,8 @@ This is a standard React + Vite application.
 
 Whether you are a junior dev struggling with `rebase` or a senior dev who just wants to see a voxel Kraken spin, there is something here for you.
 
+<div align="center">
 **Built with 💜 by _SEJAL_KAMBLE_  for GitKon 2025 Game Jam**
+</div>
+
+
