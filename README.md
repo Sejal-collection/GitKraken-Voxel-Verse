@@ -150,7 +150,8 @@ npm run dev
 
 ## 🌟 Conclusion
 
-**GitKraken: Voxel Verse** proves that developer tools don't have to be boring. By visualizing abstract data structures as physical objects, we make learning Git intuitive and rewarding. 
+**GitKraken: Voxel Verse** proves that developer tools don't have to be boring.
+By visualizing abstract data structures as physical objects, -->  we make learning Git intuitive and rewarding. 
 
 Whether you are a junior dev struggling with `rebase` or a senior dev who just wants to see a voxel Kraken spin, there is something here for you.
 
