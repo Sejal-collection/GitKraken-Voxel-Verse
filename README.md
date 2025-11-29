@@ -27,10 +27,9 @@
 > **A 3D Gamified Git Experience built for GitKon 2025 Game Jam.**
 > Master version control mechanics in a visually stunning, synthwave-infused voxel world.
 
-### itch.io published : [https://ksejal630.itch.io/gitkraken-voxel-verse]
-
-
 ![Game Banner](Images/intro-screen.png) 
+
+### itch.io published : [https://ksejal630.itch.io/gitkraken-voxel-verse]
 
 ## 🚀 Why Play Voxel Verse?
 
