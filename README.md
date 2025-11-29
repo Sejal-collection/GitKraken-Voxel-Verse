@@ -30,6 +30,9 @@
 ![Game Banner](Images/intro-screen.png) 
 
 ### itch.io published : [https://ksejal630.itch.io/gitkraken-voxel-verse]
+### Live demo : https://gitkraken-voxel-verse.netlify.app/
+
+---
 
 ## 🚀 Why Play Voxel Verse?
 
