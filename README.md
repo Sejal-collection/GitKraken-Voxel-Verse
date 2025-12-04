@@ -121,7 +121,8 @@ The timeline is physically scattered. Commits are floating in the wrong position
 
 ## 💻 Installation
 
-Want to hack on the Voxel Verse?
+Want to hack on the Voxel Verse? <br>
+_here's your chance_
 
 ```bash
 # 1. Clone the repo
