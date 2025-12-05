@@ -119,6 +119,32 @@ The timeline is physically scattered. Commits are floating in the wrong position
 
 ---
 
+## 🏗️ Under The Hood
+
+We built a game engine from scratch to win this.
+
+### 🎨 The "No-Canvas" Voxel Engine (`VoxelEngine.tsx`)
+A marvel of DOM manipulation. We don't use Three.js. We don't use Canvas.
+*   **Pure CSS 3D Transforms:** Every block is a `div` with `preserve-3d`.
+*   **Performance:** Optimized with React Memoization for silky smooth 60fps.
+*   **Result:** Crisp, pixel-perfect edges that look great on any screen.
+
+### 🧠 The Logic Kernel (`useGameLogic.ts`)
+A complete Git emulation layer.
+*   **Virtual File System:** Tracks staged files (`inventory`), commit history, and branch topology.
+*   **CLI Parser:** Parses strings like `git checkout -b feature` and maps them to game actions.
+
+### 🔊 Generative Audio (`useSound.ts`)
+*   **Procedural Music:** The music is generated code-side.
+*   **Lookahead Scheduler:** Ensures professional-grade timing precision for the beats.
+
+### 🤖 Agentic Workflow
+This project showcases the power of **Agentic AI**. 
+*   **Architecture:** The component structure and state machines were drafted using Google Gemini.
+*   **Optimization:** AI was used to refactor the Voxel Engine for 60fps performance on low-end devices.
+
+---
+
 ## 💻 Installation
 
 Want to hack on the Voxel Verse? <br>
