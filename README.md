@@ -59,33 +59,29 @@ Instead of reading documentation, you *live* the workflow:
 
 ---
 
-## 🏗️ Technical Architecture
+## 🏗️ Under The Hood - ( Technical Architecture )
 
-The game is built entirely with web technologies, using **React** for the UI and a custom **CSS-based 3D Engine** for the graphics (no Canvas/WebGL required!).
+We built a game engine from scratch to win this.
 
-### 1. The Voxel Engine (`VoxelEngine.tsx`)
-Instead of using heavy libraries like Three.js, we built a lightweight, DOM-based voxel renderer.
-*   **Pure CSS 3D Transforms:** Every block, character, and particle is a `<div>` manipulated in 3D space using `transform-style: preserve-3d`.
-*   **React Memoization:** Uses `React.memo` and stable keys to ensure 60fps performance even with hundreds of DOM nodes.
-*   **Composite Models:** Characters like Keif are assembled from multiple voxel primitives, allowing for independent animation of head, tentacles, and eyes.
+### 🎨 The "No-Canvas" Voxel Engine (`VoxelEngine.tsx`)
+A marvel of DOM manipulation. We don't use Three.js. We don't use Canvas.
+*   **Pure CSS 3D Transforms:** Every block is a `div` with `preserve-3d`.
+*   **Performance:** Optimized with React Memoization for silky smooth 60fps.
+*   **Result:** Crisp, pixel-perfect edges that look great on any screen.
 
-### 2. The Git Logic Kernel (`useGameLogic.ts`)
-The game state acts as a pseudo-Git repository.
-*   **Virtual File System:** Tracks `inventory` (staged files), `commits` (history), and `branches`.
-*   **Command Parser:** A robust CLI implementation that parses strings like `git checkout -b feature` and maps them to game actions.
-*   **Level State Machine:** Handles win conditions, tutorial triggers, and puzzle validation (e.g., checking if commits are physically aligned for a rebase).
+### 🧠 The Logic Kernel (`useGameLogic.ts`)
+A complete Git emulation layer.
+*   **Virtual File System:** Tracks staged files (`inventory`), commit history, and branch topology.
+*   **CLI Parser:** Parses strings like `git checkout -b feature` and maps them to game actions.
 
-### 3. Audio Synthesis Engine (`useSound.ts`)
-A generative soundtrack that creates music in real-time using the **Web Audio API**.
-*   **No MP3s:** All sounds are synthesized oscillators.
-*   **Lookahead Scheduler:** Ensures rock-solid timing for the techno-beat, unaffected by React render cycles.
-*   **Dynamic Mixing:** Audio evolves based on game state (e.g., intense music during merge conflicts).
+### 🔊 Generative Audio (`useSound.ts`)
+*   **Procedural Music:** The music is generated code-side.
+*   **Lookahead Scheduler:** Ensures professional-grade timing precision for the beats.
 
-### 4. Real-time Visualization (`GitGraph.tsx`)
-A dynamic SVG component that renders a "Metro Map" style commit graph.
-*   **Bezier Curves:** smooth paths connecting commits.
-*   **Lane System:** Automatically separates `main` and `feature` branches.
-*   **Live Updates:** As you play, the graph grows.
+### 🤖 Agentic Workflow
+This project showcases the power of **Agentic AI**. 
+*   **Architecture:** The component structure and state machines were drafted using Google Gemini.
+*   **Optimization:** AI was used to refactor the Voxel Engine for 60fps performance on low-end devices.
 
 ---
 
@@ -116,32 +112,6 @@ The player needs a bridge block from a parallel "feature" timeline, but the feat
 The timeline is physically scattered. Commits are floating in the wrong positions.
 1.  Enter rebase mode (`git rebase -i`).
 2.  Use the custom `swap` command to physically reorder the voxel blocks into the correct linear slots.
-
----
-
-## 🏗️ Under The Hood
-
-We built a game engine from scratch to win this.
-
-### 🎨 The "No-Canvas" Voxel Engine (`VoxelEngine.tsx`)
-A marvel of DOM manipulation. We don't use Three.js. We don't use Canvas.
-*   **Pure CSS 3D Transforms:** Every block is a `div` with `preserve-3d`.
-*   **Performance:** Optimized with React Memoization for silky smooth 60fps.
-*   **Result:** Crisp, pixel-perfect edges that look great on any screen.
-
-### 🧠 The Logic Kernel (`useGameLogic.ts`)
-A complete Git emulation layer.
-*   **Virtual File System:** Tracks staged files (`inventory`), commit history, and branch topology.
-*   **CLI Parser:** Parses strings like `git checkout -b feature` and maps them to game actions.
-
-### 🔊 Generative Audio (`useSound.ts`)
-*   **Procedural Music:** The music is generated code-side.
-*   **Lookahead Scheduler:** Ensures professional-grade timing precision for the beats.
-
-### 🤖 Agentic Workflow
-This project showcases the power of **Agentic AI**. 
-*   **Architecture:** The component structure and state machines were drafted using Google Gemini.
-*   **Optimization:** AI was used to refactor the Voxel Engine for 60fps performance on low-end devices.
 
 ---
 
